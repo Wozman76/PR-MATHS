@@ -7,7 +7,7 @@ BEGIN
 	
 	Xmin := 1;
 	
-	while Xmin / 2 <> 0 do ///Arret de la bloucle lorsque le logiciel considerera Xmin comme etant egal a 0.
+	while Xmin / 2 > 0 do ///Arret de la bloucle lorsque le logiciel considerera Xmin comme etant egal a 0.
 		Xmin := Xmin / 2;
 		
 	write('Valeur de Xmin : ');
