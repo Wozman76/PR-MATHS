@@ -3,7 +3,7 @@ program math;
 const MAX = 10;
 
 Type Mat = Array[1..MAX,1..MAX] of Real;
-Type Mat2 = Array[1..MAX] of 
+Type Mat2 = Array[1..MAX] of Real;   
 
 
 var matrice : Mat;
